@@ -70,29 +70,6 @@ pairs(emmeans(fit2, ~ After.1...2|Location|Habitat))
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-log10(3.15)-log10(22.59)
-
-
-
-
-
-# 
-# 
-# 
-# 
 # #######################################
 # 
 # 
@@ -306,25 +283,6 @@ emmeans(fit2, pairwise~After.1...2|Habitat|Location,type="response")
 
 
 
-
-
-
-######################################
-#### Not using this bit ##############
-######################################
-
-#attempt for non - superiority
-emmean_fit <- emmeans(fit2_noArt, "After.1...2",)
-pairs_emmean_fit <- pairs(emmean_fit)
-
-test(pairs_emmean_fit, delta = log(1.5),side="nonsuperiority")
-
-
-summary(fit2)
-
-library(car)
-anova(fit2,fit_null,test="Chisq")
-Anova(fit2,type="II",test="Chisq")
 
 
 
