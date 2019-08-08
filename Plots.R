@@ -122,63 +122,63 @@ ggsave("Output/Final Figures/Species Abundances.png", width = 6.3, height = 4.3,
 # }
 
 #####################################################################################################
-### Now only do some species based upon Heath's choices
-Lake_Mac_Sp <- c("Pelates.sexlineatus")
-Bot_Bay_Sp <- c("Pseudocaranx.dentex", "Trachurus.novaezelandiae", "Atypichthys.strigatus")
-St_Geo_Sp <- c("Pelates.sexlineatus", "Trachurus.novaezelandiae", "Microcanthus.strigatus")
+# ### Now only do some species based upon Heath's choices
+# Lake_Mac_Sp <- c("Pelates.sexlineatus")
+# Bot_Bay_Sp <- c("Pseudocaranx.dentex", "Trachurus.novaezelandiae", "Atypichthys.strigatus")
+# St_Geo_Sp <- c("Pelates.sexlineatus", "Trachurus.novaezelandiae", "Microcanthus.strigatus")
+# 
+# LM_List <- paste("Lake Macquarie", "_", Lake_Mac_Sp, sep="")
+# BB_List <- paste("Botany Bay", "_", Bot_Bay_Sp, sep="")
+# SG_List <- paste("St Georges Basin", "_", St_Geo_Sp, sep="")
+# 
+# species_list2 <-c(LM_List, BB_List, SG_List)
+# 
+# datY$Loc_Sp <- paste(datY$Location, "_", datY$variable, sep = "")
+# 
+# # Keep only species in the above list
+# datY2 <- datY %>% filter(Loc_Sp %in% species_list2)
+# 
+# ### Now redo graphs
+# 
+# 
+# ## All locations and other species in one plot
+# #Colour blind palette
+# cbbPalette <- c("#000000", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
+# 
+# pX <- ggplot(datY2, aes(x = Survey, y = mean_MaxN, col = Location, linetype = Habitat, shape = Habitat)) + geom_point() + 
+#   facet_wrap(~variable, scales = "free_y", ncol =3) + geom_line() +
+#   geom_errorbar(aes(ymin = mean_MaxN-SE, ymax = mean_MaxN+SE), width = 0.1) +
+#   theme_classic() + ylab(paste("Mean MaxN (","\U00B1","SE)", sep = "" )) + scale_colour_manual(values=cbbPalette)+
+#   theme(axis.title.x = element_text(face="bold", colour="black", size = 20),
+#         axis.text.x  = element_text(colour="black", size = 16), 
+#         axis.title.y = element_text(face="bold", colour="black", size = 20),
+#         axis.text.y  = element_text(colour="black", size = 16),
+#         legend.title = element_text(colour="black", size=14, face="bold"),
+#         legend.text = element_text(colour="black", size = 12, face = "bold"),
+#         legend.justification=c(0,0.5), legend.position=c(0.7,0.13),
+#         #legend.position="bottom",
+#         legend.key.width = unit(3, "line"),
+#         strip.text = element_text(face = "italic")) +
+#   scale_x_continuous(breaks=c(1,2,3), labels= c("Before", "Year \n1", 'Year \n2')) #+
+#   #guides(col = guide_legend(nrow = 2), linetype = guide_legend(nrow = 2))
+# pX
+# 
 
-LM_List <- paste("Lake Macquarie", "_", Lake_Mac_Sp, sep="")
-BB_List <- paste("Botany Bay", "_", Bot_Bay_Sp, sep="")
-SG_List <- paste("St Georges Basin", "_", St_Geo_Sp, sep="")
-
-species_list2 <-c(LM_List, BB_List, SG_List)
-
-datY$Loc_Sp <- paste(datY$Location, "_", datY$variable, sep = "")
-
-# Keep only species in the above list
-datY2 <- datY %>% filter(Loc_Sp %in% species_list2)
-
-### Now redo graphs
-
-
-## All locations and other species in one plot
-#Colour blind palette
-cbbPalette <- c("#000000", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
-
-pX <- ggplot(datY2, aes(x = Survey, y = mean_MaxN, col = Location, linetype = Habitat, shape = Habitat)) + geom_point() + 
-  facet_wrap(~variable, scales = "free_y", ncol =3) + geom_line() +
-  geom_errorbar(aes(ymin = mean_MaxN-SE, ymax = mean_MaxN+SE), width = 0.1) +
-  theme_classic() + ylab(paste("Mean MaxN (","\U00B1","SE)", sep = "" )) + scale_colour_manual(values=cbbPalette)+
-  theme(axis.title.x = element_text(face="bold", colour="black", size = 20),
-        axis.text.x  = element_text(colour="black", size = 16), 
-        axis.title.y = element_text(face="bold", colour="black", size = 20),
-        axis.text.y  = element_text(colour="black", size = 16),
-        legend.title = element_text(colour="black", size=14, face="bold"),
-        legend.text = element_text(colour="black", size = 12, face = "bold"),
-        legend.justification=c(0,0.5), legend.position=c(0.7,0.13),
-        #legend.position="bottom",
-        legend.key.width = unit(3, "line"),
-        strip.text = element_text(face = "italic")) +
-  scale_x_continuous(breaks=c(1,2,3), labels= c("Before", "Year \n1", 'Year \n2')) #+
-  #guides(col = guide_legend(nrow = 2), linetype = guide_legend(nrow = 2))
-pX
-
-
-
-
-# Make plots for each location with a panel for each species
-for (i in datX$Location) {
-  
-  dat2 <- subset(datX, Location == i)
-  
-  p1 <- ggplot(dat2, aes(x = Survey, y = mean_MaxN, col = Habitat)) + geom_point() + 
-    facet_wrap(~variable, scales = "free_y") + geom_line() +
-    geom_errorbar(aes(ymin = mean_MaxN-SE, ymax = mean_MaxN+SE), width = 0.1) +
-    theme_classic()
-  p1
-  #ggsave(filename = paste("Output/2Limited_species_",i, ".pdf", sep=""), width = 12, height = 8)
-  
-}
+# 
+# 
+# # Make plots for each location with a panel for each species
+# for (i in datX$Location) {
+#   
+#   dat2 <- subset(datX, Location == i)
+#   
+#   p1 <- ggplot(dat2, aes(x = Survey, y = mean_MaxN, col = Habitat)) + geom_point() + 
+#     facet_wrap(~variable, scales = "free_y") + geom_line() +
+#     geom_errorbar(aes(ymin = mean_MaxN-SE, ymax = mean_MaxN+SE), width = 0.1) +
+#     theme_classic()
+#   p1
+#   #ggsave(filename = paste("Output/2Limited_species_",i, ".pdf", sep=""), width = 12, height = 8)
+#   
+# }
 
 
 
@@ -278,12 +278,9 @@ mydata$Sparids <- mydata$Acanthopagrus.australis + mydata$Pagrus.auratus +
   mydata$Rhabdosargus.sarba
 
 
-mydata <- subset(mydata, Time != "Estimation")
-mydata <- subset(mydata, Season != "Aut")
+mydata <- subset(mydata, Time != "Estimation") # only include observed data
+mydata <- subset(mydata, Season != "Aut") # remove out of season observations
 
-
-
-#mydata <- subset(mydata, Time != "Estimation")
 dat <- mydata %>% group_by(Location, Survey, Habitat) %>% 
   summarise(mean_MaxN = mean(Sparids), SD = sd(Sparids), n = n(), SE = SD/sqrt(n))
 dat
