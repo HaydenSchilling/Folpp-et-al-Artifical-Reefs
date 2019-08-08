@@ -26,7 +26,7 @@ mydata$Habitat[mydata$Habitat  == "NR"] <- "Natural Reef"
 mydata$Habitat <- as.factor(mydata$Habitat)
 mydata$Site <- as.factor(paste(mydata$Location, mydata$Site2))
 #mydata$Time <- as.Date(as.character(mydata$Time, "%d/%m/%Y"))
-mydata <- subset(mydata, Season != "Aut")
+mydata <- subset(mydata, Season != "Aut") # remove out of season observations
 
 library(tidyverse)
 
@@ -60,10 +60,10 @@ out1
 write.csv(out1$contrasts, "Total Abundance Contrasts.csv", row.names = FALSE)
 
 
-########## New bit
+########## New bit (not used)
 
 
-pairs(emmeans(fit2, ~ After.1...2|Location|Habitat))
+#pairs(emmeans(fit2, ~ After.1...2|Location|Habitat))
 
 
 
