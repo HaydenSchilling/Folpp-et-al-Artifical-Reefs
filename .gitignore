@@ -2,3 +2,5 @@
 .Rhistory
 .RData
 .Ruserdata
+Shape files/*
+Rplot.png
