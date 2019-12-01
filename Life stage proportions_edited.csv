@@ -1,0 +1,374 @@
+Location,Site,Time,Before.After.x,Habitat,AD,JUV,Prop_J
+Botany Bay,AR3,5/01/2007,After 1,AR,0,0,NA
+Botany Bay,AR4,5/01/2007,After 1,AR,0,1,1
+Botany Bay,AR5,5/01/2007,After 1,AR,0,0,NA
+Botany Bay,RC1,5/01/2007,After 1,NR,0,0,NA
+Botany Bay,RC2,5/01/2007,After 1,NR,0,0,NA
+Botany Bay,AR3,23/01/2007,After 1,AR,0,0,NA
+Botany Bay,AR4,23/01/2007,After 1,AR,0,1,1
+Botany Bay,AR5,23/01/2007,After 1,AR,0,1,1
+Botany Bay,AR6,23/01/2007,After 1,AR,0,2,1
+Botany Bay,RC1,23/01/2007,After 1,NR,0,0,NA
+Botany Bay,RC2,23/01/2007,After 1,NR,0,0,NA
+Botany Bay,RC3,23/01/2007,After 1,NR,1,0,0
+Botany Bay,AR3,15/02/2007,After 1,AR,0,16,1
+Botany Bay,AR4,15/02/2007,After 1,AR,0,2,1
+Botany Bay,AR5,15/02/2007,After 1,AR,0,4,1
+Botany Bay,AR6,15/02/2007,After 1,AR,1,1,0.5
+Botany Bay,RC1,15/02/2007,After 1,NR,0,1,1
+Botany Bay,RC2,15/02/2007,After 1,NR,0,0,NA
+Botany Bay,AR3,23/02/2007,After 1,AR,0,8,1
+Botany Bay,AR4,23/02/2007,After 1,AR,0,4,1
+Botany Bay,AR6,23/02/2007,After 1,AR,0,1,1
+Botany Bay,RC1,23/02/2007,After 1,NR,0,1,1
+Botany Bay,RC2,23/02/2007,After 1,NR,0,0,NA
+Botany Bay,RC3,23/02/2007,After 1,NR,0,0,NA
+Botany Bay,AR3,28/02/2007,After 1,AR,9,0,0
+Botany Bay,AR4,28/02/2007,After 1,AR,0,8,1
+Botany Bay,AR5,28/02/2007,After 1,AR,0,0,NA
+Botany Bay,AR6,28/02/2007,After 1,AR,0,0,NA
+Botany Bay,RC1,28/02/2007,After 1,NR,0,10,1
+Botany Bay,RC2,28/02/2007,After 1,NR,0,0,NA
+Lake Macquarie,AR1,8/09/2006,After 1,AR,1,4,0.8
+Lake Macquarie,AR2,8/09/2006,After 1,AR,1,3,0.75
+Lake Macquarie,AR3,8/09/2006,After 1,AR,3,0,0
+Lake Macquarie,AR4,8/09/2006,After 1,AR,0,0,NA
+Lake Macquarie,AR5,8/09/2006,After 1,AR,4,6,0.6
+Lake Macquarie,AR6,8/09/2006,After 1,AR,3,5,0.625
+Lake Macquarie,RC1,8/09/2006,After 1,NR,1,1,0.5
+Lake Macquarie,RC2,8/09/2006,After 1,NR,0,0,NA
+Lake Macquarie,RC3,8/09/2006,After 1,NR,2,0,0
+Lake Macquarie,AR1,18/09/2006,After 1,AR,0,4,1
+Lake Macquarie,AR2,18/09/2006,After 1,AR,0,14,1
+Lake Macquarie,AR3,18/09/2006,After 1,AR,0,3,1
+Lake Macquarie,AR5,18/09/2006,After 1,AR,4,2,0.333333333
+Lake Macquarie,AR6,18/09/2006,After 1,AR,0,2,1
+Lake Macquarie,RC1,18/09/2006,After 1,NR,1,0,0
+Lake Macquarie,RC2,18/09/2006,After 1,NR,0,5,1
+Lake Macquarie,RC3,18/09/2006,After 1,NR,4,0,0
+Lake Macquarie,AR1,11/10/2006,After 1,AR,15,13,0.464285714
+Lake Macquarie,AR2,11/10/2006,After 1,AR,1,9,0.9
+Lake Macquarie,AR3,11/10/2006,After 1,AR,1,4,0.8
+Lake Macquarie,AR4,11/10/2006,After 1,AR,3,2,0.4
+Lake Macquarie,AR5,11/10/2006,After 1,AR,10,10,0.5
+Lake Macquarie,AR6,11/10/2006,After 1,AR,0,5,1
+Lake Macquarie,RC1,11/10/2006,After 1,NR,0,0,NA
+Lake Macquarie,RC3,11/10/2006,After 1,NR,25,9,0.264705882
+Lake Macquarie,AR1,20/10/2006,After 1,AR,0,8,1
+Lake Macquarie,AR2,20/10/2006,After 1,AR,1,5,0.833333333
+Lake Macquarie,AR3,20/10/2006,After 1,AR,2,2,0.5
+Lake Macquarie,AR4,20/10/2006,After 1,AR,2,1,0.333333333
+Lake Macquarie,AR5,20/10/2006,After 1,AR,2,5,0.714285714
+Lake Macquarie,AR6,20/10/2006,After 1,AR,3,0,0
+Lake Macquarie,RC2,20/10/2006,After 1,NR,0,2,1
+Lake Macquarie,RC3,20/10/2006,After 1,NR,10,2,0.166666667
+Lake Macquarie,AR1,6/11/2006,After 1,AR,8,7,0.466666667
+Lake Macquarie,AR2,6/11/2006,After 1,AR,4,1,0.2
+Lake Macquarie,AR3,6/11/2006,After 1,AR,8,9,0.529411765
+Lake Macquarie,AR4,6/11/2006,After 1,AR,4,0,0
+Lake Macquarie,AR5,6/11/2006,After 1,AR,7,3,0.3
+Lake Macquarie,AR6,6/11/2006,After 1,AR,0,1,1
+Lake Macquarie,RC1,6/11/2006,After 1,NR,0,0,NA
+Lake Macquarie,RC2,6/11/2006,After 1,NR,0,0,NA
+Lake Macquarie,RC3,6/11/2006,After 1,NR,4,21,0.84
+Lake Macquarie,AR1,30/11/2006,After 1,AR,12,6,0.333333333
+Lake Macquarie,AR2,30/11/2006,After 1,AR,3,0,0
+Lake Macquarie,AR3,30/11/2006,After 1,AR,2,2,0.5
+Lake Macquarie,AR4,30/11/2006,After 1,AR,0,13,1
+Lake Macquarie,AR5,30/11/2006,After 1,AR,7,10,0.588235294
+Lake Macquarie,AR6,30/11/2006,After 1,AR,6,0,0
+Lake Macquarie,RC1,30/11/2006,After 1,NR,0,0,NA
+Lake Macquarie,RC2,30/11/2006,After 1,NR,0,0,NA
+St Georges Basin,AR1,18/10/2007,After 1,AR,0,3,1
+St Georges Basin,AR2,18/10/2007,After 1,AR,0,0,NA
+St Georges Basin,AR3,18/10/2007,After 1,AR,0,1,1
+St Georges Basin,AR4,18/10/2007,After 1,AR,0,0,NA
+St Georges Basin,AR5,18/10/2007,After 1,AR,0,0,NA
+St Georges Basin,RC1,18/10/2007,After 1,NR,0,0,NA
+St Georges Basin,RC2,18/10/2007,After 1,NR,1,0,0
+St Georges Basin,RC3,18/10/2007,After 1,NR,5,0,0
+St Georges Basin,AR1,30/10/2007,After 1,AR,0,0,NA
+St Georges Basin,AR2,30/10/2007,After 1,AR,0,0,NA
+St Georges Basin,AR3,30/10/2007,After 1,AR,0,0,NA
+St Georges Basin,AR4,30/10/2007,After 1,AR,0,0,NA
+St Georges Basin,AR5,30/10/2007,After 1,AR,1,1,0.5
+St Georges Basin,AR6,30/10/2007,After 1,AR,0,0,NA
+St Georges Basin,RC1,30/10/2007,After 1,NR,1,0,0
+St Georges Basin,RC2,30/10/2007,After 1,NR,0,0,NA
+St Georges Basin,RC3,30/10/2007,After 1,NR,2,0,0
+St Georges Basin,AR1,31/10/2007,After 1,AR,2,0,0
+St Georges Basin,AR2,31/10/2007,After 1,AR,0,0,NA
+St Georges Basin,AR4,31/10/2007,After 1,AR,0,0,NA
+St Georges Basin,AR6,31/10/2007,After 1,AR,0,0,NA
+St Georges Basin,RC1,31/10/2007,After 1,NR,5,0,0
+St Georges Basin,RC3,31/10/2007,After 1,NR,8,0,0
+St Georges Basin,AR1,20/11/2007,After 1,AR,0,17,1
+St Georges Basin,AR2,20/11/2007,After 1,AR,0,2,1
+St Georges Basin,AR3,20/11/2007,After 1,AR,0,2,1
+St Georges Basin,AR4,20/11/2007,After 1,AR,3,1,0.25
+St Georges Basin,AR5,20/11/2007,After 1,AR,11,0,0
+St Georges Basin,AR6,20/11/2007,After 1,AR,0,1,1
+St Georges Basin,RC1,20/11/2007,After 1,NR,0,0,NA
+St Georges Basin,RC2,20/11/2007,After 1,NR,3,0,0
+St Georges Basin,RC3,20/11/2007,After 1,NR,8,6,0.428571429
+St Georges Basin,AR1,21/11/2007,After 1,AR,1,0,0
+St Georges Basin,AR2,21/11/2007,After 1,AR,0,1,1
+St Georges Basin,AR3,21/11/2007,After 1,AR,1,0,0
+St Georges Basin,AR4,21/11/2007,After 1,AR,1,0,0
+St Georges Basin,AR6,21/11/2007,After 1,AR,0,1,1
+St Georges Basin,RC1,21/11/2007,After 1,NR,0,0,NA
+St Georges Basin,RC2,21/11/2007,After 1,NR,9,0,0
+St Georges Basin,RC3,21/11/2007,After 1,NR,9,7,0.4375
+St Georges Basin,AR1,19/12/2007,After 1,AR,3,0,0
+St Georges Basin,AR2,19/12/2007,After 1,AR,0,0,NA
+St Georges Basin,AR3,19/12/2007,After 1,AR,1,3,0.75
+St Georges Basin,AR4,19/12/2007,After 1,AR,1,0,0
+St Georges Basin,AR5,19/12/2007,After 1,AR,0,1,1
+St Georges Basin,AR6,19/12/2007,After 1,AR,0,3,1
+St Georges Basin,RC1,19/12/2007,After 1,NR,1,0,0
+St Georges Basin,RC2,19/12/2007,After 1,NR,0,0,NA
+St Georges Basin,RC3,19/12/2007,After 1,NR,17,0,0
+Botany Bay,AR3,15/01/2008,After 2,AR,10,0,0
+Botany Bay,AR4,15/01/2008,After 2,AR,0,0,NA
+Botany Bay,AR5,15/01/2008,After 2,AR,0,1,1
+Botany Bay,AR6,15/01/2008,After 2,AR,0,5,1
+Botany Bay,RC1,15/01/2008,After 2,NR,0,2,1
+Botany Bay,RC2,15/01/2008,After 2,NR,0,0,NA
+Botany Bay,RC3,15/01/2008,After 2,NR,0,0,NA
+Botany Bay,AR3,25/01/2008,After 2,AR,25,2,0.074074074
+Botany Bay,AR4,25/01/2008,After 2,AR,0,0,NA
+Botany Bay,AR5,25/01/2008,After 2,AR,0,1,1
+Botany Bay,AR6,25/01/2008,After 2,AR,0,1,1
+Botany Bay,RC1,25/01/2008,After 2,NR,1,2,0.666666667
+Botany Bay,RC2,25/01/2008,After 2,NR,0,1,1
+Botany Bay,AR3,6/02/2008,After 2,AR,18,4,0.181818182
+Botany Bay,AR5,6/02/2008,After 2,AR,0,1,1
+Botany Bay,AR6,6/02/2008,After 2,AR,0,5,1
+Botany Bay,RC2,6/02/2008,After 2,NR,0,13,1
+Botany Bay,AR3,12/02/2008,After 2,AR,0,3,1
+Botany Bay,AR4,12/02/2008,After 2,AR,1,12,0.923076923
+Botany Bay,AR5,12/02/2008,After 2,AR,1,1,0.5
+Botany Bay,AR6,12/02/2008,After 2,AR,8,8,0.5
+Botany Bay,RC1,12/02/2008,After 2,NR,1,14,0.933333333
+Botany Bay,RC2,12/02/2008,After 2,NR,0,0,NA
+Botany Bay,RC3,12/02/2008,After 2,NR,9,2,0.181818182
+Botany Bay,AR3,15/02/2008,After 2,AR,7,3,0.3
+Botany Bay,AR4,15/02/2008,After 2,AR,5,0,0
+Botany Bay,AR5,15/02/2008,After 2,AR,0,0,NA
+Botany Bay,AR6,15/02/2008,After 2,AR,0,23,1
+Lake Macquarie,AR1,4/10/2007,After 2,AR,4,0,0
+Lake Macquarie,AR2,4/10/2007,After 2,AR,0,10,1
+Lake Macquarie,AR4,4/10/2007,After 2,AR,4,6,0.6
+Lake Macquarie,AR6,4/10/2007,After 2,AR,1,6,0.857142857
+Lake Macquarie,RC2,4/10/2007,After 2,NR,1,7,0.875
+Lake Macquarie,RC3,4/10/2007,After 2,NR,14,11,0.44
+Lake Macquarie,AR1,5/10/2007,After 2,AR,17,6,0.260869565
+Lake Macquarie,AR2,5/10/2007,After 2,AR,13,2,0.133333333
+Lake Macquarie,AR3,5/10/2007,After 2,AR,5,8,0.615384615
+Lake Macquarie,AR4,5/10/2007,After 2,AR,5,10,0.666666667
+Lake Macquarie,AR5,5/10/2007,After 2,AR,1,0,0
+Lake Macquarie,AR6,5/10/2007,After 2,AR,2,3,0.6
+Lake Macquarie,RC1,5/10/2007,After 2,NR,2,0,0
+Lake Macquarie,RC2,5/10/2007,After 2,NR,8,5,0.384615385
+Lake Macquarie,RC3,5/10/2007,After 2,NR,16,12,0.428571429
+Lake Macquarie,AR1,25/10/2007,After 2,AR,0,3,1
+Lake Macquarie,AR2,25/10/2007,After 2,AR,17,7,0.291666667
+Lake Macquarie,AR3,25/10/2007,After 2,AR,12,6,0.333333333
+Lake Macquarie,AR4,25/10/2007,After 2,AR,7,14,0.666666667
+Lake Macquarie,AR5,25/10/2007,After 2,AR,3,1,0.25
+Lake Macquarie,AR6,25/10/2007,After 2,AR,4,5,0.555555556
+Lake Macquarie,RC1,25/10/2007,After 2,NR,2,0,0
+Lake Macquarie,RC2,25/10/2007,After 2,NR,0,0,NA
+Lake Macquarie,RC3,25/10/2007,After 2,NR,11,14,0.56
+Lake Macquarie,AR1,26/10/2007,After 2,AR,10,4,0.285714286
+Lake Macquarie,AR2,26/10/2007,After 2,AR,12,11,0.47826087
+Lake Macquarie,AR3,26/10/2007,After 2,AR,8,8,0.5
+Lake Macquarie,AR4,26/10/2007,After 2,AR,14,6,0.3
+Lake Macquarie,AR5,26/10/2007,After 2,AR,0,7,1
+Lake Macquarie,AR6,26/10/2007,After 2,AR,0,1,1
+Lake Macquarie,RC3,26/10/2007,After 2,NR,16,0,0
+Lake Macquarie,AR1,8/11/2007,After 2,AR,10,11,0.523809524
+Lake Macquarie,AR2,8/11/2007,After 2,AR,11,7,0.388888889
+Lake Macquarie,AR3,8/11/2007,After 2,AR,9,10,0.526315789
+Lake Macquarie,AR4,8/11/2007,After 2,AR,10,10,0.5
+Lake Macquarie,AR5,8/11/2007,After 2,AR,1,2,0.666666667
+Lake Macquarie,AR6,8/11/2007,After 2,AR,7,4,0.363636364
+Lake Macquarie,RC1,8/11/2007,After 2,NR,0,3,1
+Lake Macquarie,RC2,8/11/2007,After 2,NR,1,0,0
+Lake Macquarie,RC3,8/11/2007,After 2,NR,15,5,0.25
+Lake Macquarie,AR1,9/11/2007,After 2,AR,11,11,0.5
+Lake Macquarie,AR2,9/11/2007,After 2,AR,12,9,0.428571429
+Lake Macquarie,AR3,9/11/2007,After 2,AR,16,10,0.384615385
+Lake Macquarie,AR4,9/11/2007,After 2,AR,9,0,0
+Lake Macquarie,AR5,9/11/2007,After 2,AR,14,7,0.333333333
+Lake Macquarie,AR6,9/11/2007,After 2,AR,11,8,0.421052632
+Lake Macquarie,RC1,9/11/2007,After 2,NR,3,3,0.5
+Lake Macquarie,RC2,9/11/2007,After 2,NR,1,1,0.5
+Lake Macquarie,RC3,9/11/2007,After 2,NR,18,10,0.357142857
+St Georges Basin,AR1,16/10/2008,After 2,AR,0,4,1
+St Georges Basin,AR2,16/10/2008,After 2,AR,1,0,0
+St Georges Basin,AR3,16/10/2008,After 2,AR,2,1,0.333333333
+St Georges Basin,AR4,16/10/2008,After 2,AR,2,2,0.5
+St Georges Basin,AR5,16/10/2008,After 2,AR,3,3,0.5
+St Georges Basin,AR6,16/10/2008,After 2,AR,8,1,0.111111111
+St Georges Basin,RC1,16/10/2008,After 2,NR,2,0,0
+St Georges Basin,RC2,16/10/2008,After 2,NR,5,3,0.375
+St Georges Basin,RC3,16/10/2008,After 2,NR,11,9,0.45
+St Georges Basin,AR1,4/11/2008,After 2,AR,2,9,0.818181818
+St Georges Basin,AR2,4/11/2008,After 2,AR,4,1,0.2
+St Georges Basin,AR3,4/11/2008,After 2,AR,6,3,0.333333333
+St Georges Basin,AR4,4/11/2008,After 2,AR,0,1,1
+St Georges Basin,AR5,4/11/2008,After 2,AR,15,1,0.0625
+St Georges Basin,AR6,4/11/2008,After 2,AR,0,0,NA
+St Georges Basin,AR1,6/11/2008,After 2,AR,1,2,0.666666667
+St Georges Basin,AR4,6/11/2008,After 2,AR,2,4,0.666666667
+St Georges Basin,AR5,6/11/2008,After 2,AR,1,1,0.5
+St Georges Basin,RC3,6/11/2008,After 2,NR,15,4,0.210526316
+St Georges Basin,AR2,2/12/2008,After 2,AR,0,1,1
+St Georges Basin,AR3,2/12/2008,After 2,AR,5,6,0.545454545
+St Georges Basin,AR4,2/12/2008,After 2,AR,1,0,0
+St Georges Basin,AR5,2/12/2008,After 2,AR,1,0,0
+St Georges Basin,AR6,2/12/2008,After 2,AR,5,0,0
+St Georges Basin,RC1,2/12/2008,After 2,NR,0,2,1
+St Georges Basin,RC3,2/12/2008,After 2,NR,10,2,0.166666667
+St Georges Basin,AR1,3/12/2008,After 2,AR,3,5,0.625
+St Georges Basin,RC1,3/12/2008,After 2,NR,0,3,1
+St Georges Basin,AR1,9/12/2008,After 2,AR,0,2,1
+St Georges Basin,AR2,9/12/2008,After 2,AR,3,0,0
+St Georges Basin,AR3,9/12/2008,After 2,AR,6,3,0.333333333
+St Georges Basin,AR4,9/12/2008,After 2,AR,11,0,0
+St Georges Basin,AR5,9/12/2008,After 2,AR,3,0,0
+St Georges Basin,AR6,9/12/2008,After 2,AR,2,0,0
+St Georges Basin,RC1,9/12/2008,After 2,NR,1,0,0
+St Georges Basin,RC2,9/12/2008,After 2,NR,1,0,0
+St Georges Basin,RC3,9/12/2008,After 2,NR,7,0,0
+St Georges Basin,AR2,29/01/2009,After 2,AR,0,4,1
+St Georges Basin,AR3,29/01/2009,After 2,AR,0,0,NA
+St Georges Basin,AR4,29/01/2009,After 2,AR,0,0,NA
+St Georges Basin,AR5,29/01/2009,After 2,AR,0,0,NA
+St Georges Basin,AR6,29/01/2009,After 2,AR,2,0,0
+St Georges Basin,RC2,29/01/2009,After 2,NR,0,0,NA
+St Georges Basin,AR1,30/01/2009,After 2,AR,3,0,0
+St Georges Basin,AR2,30/01/2009,After 2,AR,2,0,0
+St Georges Basin,AR3,30/01/2009,After 2,AR,7,4,0.363636364
+St Georges Basin,AR4,30/01/2009,After 2,AR,0,0,NA
+St Georges Basin,AR5,30/01/2009,After 2,AR,0,3,1
+St Georges Basin,AR6,30/01/2009,After 2,AR,0,0,NA
+St Georges Basin,RC1,30/01/2009,After 2,NR,0,0,NA
+St Georges Basin,RC2,30/01/2009,After 2,NR,3,0,0
+Botany Bay,RC1,4/01/2006,Before,NR,0,0,NA
+Botany Bay,RC2,4/01/2006,Before,NR,0,0,NA
+Botany Bay,RC3,4/01/2006,Before,NR,0,0,NA
+Botany Bay,SC1,4/01/2006,Before,SD,0,1,1
+Botany Bay,SC2,4/01/2006,Before,SD,0,0,NA
+Botany Bay,SC3,4/01/2006,Before,SD,0,0,NA
+Botany Bay,RC1,12/01/2006,Before,NR,0,6,1
+Botany Bay,RC2,12/01/2006,Before,NR,0,0,NA
+Botany Bay,RC3,12/01/2006,Before,NR,0,5,1
+Botany Bay,SC1,12/01/2006,Before,SD,0,0,NA
+Botany Bay,SC2,12/01/2006,Before,SD,1,6,0.857142857
+Botany Bay,SC3,12/01/2006,Before,SD,0,0,NA
+Botany Bay,RC1,9/02/2006,Before,NR,0,0,NA
+Botany Bay,RC2,9/02/2006,Before,NR,3,0,0
+Botany Bay,RC3,9/02/2006,Before,NR,0,0,NA
+Botany Bay,SC1,9/02/2006,Before,SD,0,0,NA
+Botany Bay,SC2,9/02/2006,Before,SD,0,0,NA
+Botany Bay,SC3,9/02/2006,Before,SD,0,0,NA
+Botany Bay,RC1,14/02/2006,Before,NR,0,2,1
+Botany Bay,RC2,14/02/2006,Before,NR,0,0,NA
+Botany Bay,RC3,14/02/2006,Before,NR,0,0,NA
+Botany Bay,SC1,14/02/2006,Before,SD,0,1,1
+Botany Bay,SC2,14/02/2006,Before,SD,0,6,1
+Botany Bay,SC3,14/02/2006,Before,SD,0,0,NA
+Botany Bay,RC1,25/02/2006,Before,NR,0,0,NA
+Botany Bay,RC2,25/02/2006,Before,NR,0,2,1
+Botany Bay,RC3,25/02/2006,Before,NR,1,0,0
+Botany Bay,SC1,25/02/2006,Before,SD,0,0,NA
+Botany Bay,SC2,25/02/2006,Before,SD,0,0,NA
+Botany Bay,SC3,25/02/2006,Before,SD,0,0,NA
+Botany Bay,RC1,27/02/2006,Before,NR,0,3,1
+Botany Bay,RC2,27/02/2006,Before,NR,0,0,NA
+Botany Bay,SC1,27/02/2006,Before,SD,0,0,NA
+Botany Bay,SC2,27/02/2006,Before,SD,0,0,NA
+Botany Bay,SC3,31/05/2006,Before,SD,0,16,1
+Lake Macquarie,RC1,30/09/2005,Before,NR,0,0,NA
+Lake Macquarie,RC2,30/09/2005,Before,NR,0,0,NA
+Lake Macquarie,RC3,30/09/2005,Before,NR,1,0,0
+Lake Macquarie,SC1,30/09/2005,Before,SD,0,0,NA
+Lake Macquarie,SC2,30/09/2005,Before,SD,0,0,NA
+Lake Macquarie,SC3,30/09/2005,Before,SD,0,0,NA
+Lake Macquarie,RC1,11/10/2005,Before,NR,0,0,NA
+Lake Macquarie,RC2,11/10/2005,Before,NR,0,0,NA
+Lake Macquarie,RC3,11/10/2005,Before,NR,0,0,NA
+Lake Macquarie,SC1,11/10/2005,Before,SD,0,0,NA
+Lake Macquarie,SC2,11/10/2005,Before,SD,0,0,NA
+Lake Macquarie,SC3,11/10/2005,Before,SD,0,0,NA
+Lake Macquarie,RC1,27/10/2005,Before,NR,0,0,NA
+Lake Macquarie,RC2,27/10/2005,Before,NR,0,0,NA
+Lake Macquarie,RC3,27/10/2005,Before,NR,2,7,0.777777778
+Lake Macquarie,SC1,27/10/2005,Before,SD,0,0,NA
+Lake Macquarie,SC2,27/10/2005,Before,SD,0,0,NA
+Lake Macquarie,SC3,27/10/2005,Before,SD,0,0,NA
+Lake Macquarie,RC1,3/11/2005,Before,NR,0,0,NA
+Lake Macquarie,RC2,3/11/2005,Before,NR,4,0,0
+Lake Macquarie,RC3,3/11/2005,Before,NR,0,1,1
+Lake Macquarie,SC1,3/11/2005,Before,SD,0,0,NA
+Lake Macquarie,SC2,3/11/2005,Before,SD,1,1,0.5
+Lake Macquarie,SC3,3/11/2005,Before,SD,0,0,NA
+Lake Macquarie,RC1,9/11/2005,Before,NR,2,0,0
+Lake Macquarie,RC2,9/11/2005,Before,NR,0,0,NA
+Lake Macquarie,RC3,9/11/2005,Before,NR,6,2,0.25
+Lake Macquarie,SC1,9/11/2005,Before,SD,0,0,NA
+Lake Macquarie,SC2,9/11/2005,Before,SD,0,0,NA
+Lake Macquarie,SC3,9/11/2005,Before,SD,2,0,0
+Lake Macquarie,RC1,29/11/2005,Before,NR,0,2,1
+Lake Macquarie,RC2,29/11/2005,Before,NR,1,2,0.666666667
+Lake Macquarie,RC3,29/11/2005,Before,NR,5,3,0.375
+Lake Macquarie,SC1,29/11/2005,Before,SD,1,0,0
+Lake Macquarie,SC2,29/11/2005,Before,SD,0,0,NA
+Lake Macquarie,SC3,29/11/2005,Before,SD,0,0,NA
+St Georges Basin,RC1,7/10/2006,Before,NR,0,0,NA
+St Georges Basin,RC2,7/10/2006,Before,NR,0,5,1
+St Georges Basin,RC3,7/10/2006,Before,NR,0,0,NA
+St Georges Basin,SC1,7/10/2006,Before,SD,0,0,NA
+St Georges Basin,SC2,7/10/2006,Before,SD,0,0,NA
+St Georges Basin,SC3,7/10/2006,Before,SD,0,0,NA
+St Georges Basin,RC1,13/10/2006,Before,NR,0,0,NA
+St Georges Basin,RC2,13/10/2006,Before,NR,0,0,NA
+St Georges Basin,RC3,13/10/2006,Before,NR,0,0,NA
+St Georges Basin,SC1,13/10/2006,Before,SD,0,0,NA
+St Georges Basin,SC2,13/10/2006,Before,SD,0,0,NA
+St Georges Basin,SC3,13/10/2006,Before,SD,0,0,NA
+St Georges Basin,RC1,12/11/2006,Before,NR,0,0,NA
+St Georges Basin,RC2,12/11/2006,Before,NR,0,0,NA
+St Georges Basin,RC3,12/11/2006,Before,NR,0,1,1
+St Georges Basin,SC1,12/11/2006,Before,SD,0,0,NA
+St Georges Basin,SC2,12/11/2006,Before,SD,0,0,NA
+St Georges Basin,SC3,12/11/2006,Before,SD,0,0,NA
+St Georges Basin,RC2,21/12/2006,Before,NR,0,0,NA
+St Georges Basin,RC3,21/12/2006,Before,NR,0,0,NA
+St Georges Basin,SC1,21/12/2006,Before,SD,0,0,NA
+St Georges Basin,SC2,21/12/2006,Before,SD,0,0,NA
+St Georges Basin,RC1,22/12/2006,Before,NR,0,0,NA
+St Georges Basin,RC2,22/12/2006,Before,NR,0,0,NA
+St Georges Basin,SC1,22/12/2006,Before,SD,0,0,NA
+St Georges Basin,SC2,22/12/2006,Before,SD,0,0,NA
+St Georges Basin,RC1,10/01/2007,Before,NR,0,0,NA
+St Georges Basin,RC2,10/01/2007,Before,NR,0,4,1
+St Georges Basin,SC1,10/01/2007,Before,SD,0,0,NA
+St Georges Basin,SC2,10/01/2007,Before,SD,0,0,NA
+St Georges Basin,SC3,10/01/2007,Before,SD,0,0,NA
+St Georges Basin,RC1,19/01/2007,Before,NR,0,0,NA
+St Georges Basin,RC2,19/01/2007,Before,NR,0,0,NA
+St Georges Basin,SC1,19/01/2007,Before,SD,0,0,NA
+St Georges Basin,SC2,19/01/2007,Before,SD,0,0,NA
+St Georges Basin,SC3,19/01/2007,Before,SD,0,0,NA
+St Georges Basin,RC2,20/01/2007,Before,NR,0,0,NA
+St Georges Basin,RC3,20/01/2007,Before,NR,0,0,NA
+St Georges Basin,SC1,20/01/2007,Before,SD,1,0,0
+St Georges Basin,SC2,20/01/2007,Before,SD,1,0,0
+St Georges Basin,SC3,20/01/2007,Before,SD,0,0,NA
+St Georges Basin,RC1,5/02/2007,Before,NR,0,1,1
+St Georges Basin,RC2,5/02/2007,Before,NR,0,0,NA
+St Georges Basin,RC3,5/02/2007,Before,NR,0,0,NA
+St Georges Basin,SC3,5/02/2007,Before,SD,0,0,NA

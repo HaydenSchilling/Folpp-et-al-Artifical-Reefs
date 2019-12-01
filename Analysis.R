@@ -9,6 +9,7 @@ library(nlme)
 library(MASS)
 library(lme4)
 library(DHARMa)
+#install.packages("glmmTMB")
 library(glmmTMB)
 library(emmeans)
 library(car)
@@ -278,9 +279,96 @@ emmeans(fit2, pairwise~After.1...2|Habitat|Location,type="response")
 # 
 # 
 # 
-# 
-# 
+#### Now for Juveniles
 
+mydata <- read.csv("Life stage proportions_edited.csv", header = T)
+
+head(mydata)
+str(mydata)
+
+mydata$Before.After.x <- factor(mydata$Before.After.x, levels = c("Before", "After 1", "After 2"))
+mydata$Habitat <- as.character(mydata$Habitat)
+mydata$Habitat[mydata$Habitat  == "SD"] <- "AR"
+mydata$Habitat[mydata$Habitat  == "AR"] <- "Artifical Reef"
+mydata$Habitat[mydata$Habitat  == "NR"] <- "Natural Reef"
+mydata$Habitat <- as.factor(mydata$Habitat)
+mydata$SiteL <- as.factor(paste(mydata$Location, mydata$Site))
+
+mydata$juvenile_Sparids <- mydata$JUV
+
+head(mydata)
+str(mydata)
+
+#glmmtmb approach - residual vs fitted plot in question but checked with dharma looks OK
+fit3 <- glmmTMB(juvenile_Sparids ~Location*Before.After.x*Habitat + (1|SiteL)+(1|Time),family=nbinom1, data = mydata)
+
+#check assumptions
+simulationOutput <- simulateResiduals(fittedModel = fit3, n = 250)
+plot(simulationOutput)
+plotResiduals(mydata$SiteL, simulationOutput$scaledResiduals)
+#looks alright!
+
+#test for overall interaction effect
+Anova(fit3,type="II",test="Chisq")
+#test for individual effects
+emmeans(fit3, pairwise~Habitat:Location,type="response")
+emmeans(fit3, pairwise~Habitat:Before.After.x,type="response")
+emmeans(fit3, pairwise~Before.After.x,type="response")
+
+
+#look at all the means
+fit_means <- glmmTMB(juvenile_Sparids ~Location*Before.After.x*Habitat + (1|SiteL)+(1|Time),family=nbinom2, data = mydata)
+out_s <-emmeans(fit_means, pairwise~Before.After.x:Habitat:Location,type="response")
+out_s
+write.csv(out_s$emmeans, "Sparidae juvenile means output table.csv", row.names = FALSE)
+
+emmeans(fit3, pairwise~Before.After.x|Habitat|Location,type="response")
+
+
+#### Now for Adults
+
+mydata <- read.csv("Life stage proportions_edited.csv", header = T)
+
+head(mydata)
+str(mydata)
+
+mydata$Before.After.x <- factor(mydata$Before.After.x, levels = c("Before", "After 1", "After 2"))
+mydata$Habitat <- as.character(mydata$Habitat)
+mydata$Habitat[mydata$Habitat  == "SD"] <- "AR"
+mydata$Habitat[mydata$Habitat  == "AR"] <- "Artifical Reef"
+mydata$Habitat[mydata$Habitat  == "NR"] <- "Natural Reef"
+mydata$Habitat <- as.factor(mydata$Habitat)
+mydata$SiteL <- as.factor(paste(mydata$Location, mydata$Site))
+
+mydata$juvenile_Adults <- mydata$AD
+
+head(mydata)
+str(mydata)
+
+#glmmtmb approach - residual vs fitted plot in question but checked with dharma looks OK
+fit4 <- glmmTMB(juvenile_Adults ~Location*Before.After.x*Habitat + (1|SiteL)+(1|Time),family=nbinom2, data = mydata)
+
+#check assumptions
+simulationOutput <- simulateResiduals(fittedModel = fit4, n = 250)
+plot(simulationOutput)
+plotResiduals(mydata$SiteL, simulationOutput$scaledResiduals)
+#looks alright!
+
+#test for overall interaction effect
+Anova(fit4,type="II",test="Chisq")
+#test for individual effects
+emmeans(fit4, pairwise~Habitat:Location,type="response")
+emmeans(fit4, pairwise~Habitat:Before.After.x,type="response")
+emmeans(fit4, pairwise~Before.After.x,type="response")
+
+
+#look at all the means
+fit_means <- glmmTMB(juvenile_Adults ~Location*Before.After.x*Habitat + (1|SiteL)+(1|Time),family=nbinom2, data = mydata)
+out_s <-emmeans(fit_means, pairwise~Before.After.x:Habitat:Location,type="response")
+out_s
+write.csv(out_s$emmeans, "Sparidae Adult means output table.csv", row.names = FALSE)
+
+emmeans(fit4, pairwise~Before.After.x|Habitat|Location,type="response")
 
 
 
