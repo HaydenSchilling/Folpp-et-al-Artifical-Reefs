@@ -58,7 +58,7 @@ emmeans(fit_means, pairwise~After.1...2:Habitat:Location,type="response")
 
 out1 <- emmeans(fit_means, pairwise~After.1...2:Habitat:Location,type="response")
 out1
-write.csv(out1$contrasts, "Total Abundance Contrasts.csv", row.names = FALSE)
+#write.csv(out1$contrasts, "Total Abundance Contrasts.csv", row.names = FALSE)
 
 
 ########## New bit (not used)

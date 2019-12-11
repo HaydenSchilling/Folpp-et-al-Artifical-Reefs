@@ -179,7 +179,7 @@ pBB <- ggplot(Bb) + theme_classic() +
         legend.text = element_text(size = 3, face = "bold"),
         legend.title=element_text(colour="black", face = "bold", size = 4),
         legend.background = element_rect(colour = "black", fill="white", size = 0.2)) +
-  scale_shape_manual(values = c(0,1))+
+  scale_shape_manual(values = c(0,19))+
   scalebar(NULL, x.min =boxes$x_min[3], x.max = boxes$x_max[3], y.min = boxes$y_min[3],
            y.max = boxes$y_max[3], dist = 1, dist_unit = "km",
            transform = T, model = "WGS84", st.bottom = T,
@@ -225,7 +225,7 @@ pLM <- ggplot(LM) + theme_classic() +
            y.max = boxes$y_max[3], dist = 1, dist_unit = "km",
            transform = T, model = "WGS84", st.bottom = FALSE,
            anchor = c("x" = 151.67,"y"= -33.118), border.size = 0.5, st.size = 1.5) +
-  scale_shape_manual(values = c(0,1)) +
+  scale_shape_manual(values = c(0,19)) +
   #geom_point(data = dots, aes(x = Longitude, y = Latitude*-1, col = cols), size = 2) +
   #scale_shape_manual(values = 1, label ="Larval Fish \nSample") +
   geom_point(data = LM_reefs, aes(x = Long, y = Lat, shape = Type), size = 1) #+
@@ -263,7 +263,7 @@ pSGB <- ggplot(SBG) + theme_classic() +
         legend.text = element_text(size = 3, face = "bold"),
         legend.title=element_text(colour="black", face = "bold", size = 4),
         legend.background = element_rect(colour = "black", fill="white", size = 0.2))  +
-  scale_shape_manual(values = c(0,1), name = "Reef Type") +
+  scale_shape_manual(values = c(0,19), name = "Reef Type") +
   scalebar(NULL, x.min =boxes$x_min[3], x.max = boxes$x_max[3], y.min = boxes$y_min[3],
           y.max = boxes$y_max[3], dist = 1, dist_unit = "km",
           transform = T, model = "WGS84", st.bottom = FALSE,
