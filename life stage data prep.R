@@ -177,5 +177,56 @@ p4 <- ggplot(full_dat, aes(x = Survey, y = MaxN, linetype = Habitat, shape = Hab
 p4
 
 
-ggsave("Output/Final Figures/Sparid Stages Abundance.pdf", width = 6.3, height = 4, units = "in", dpi=600)
-ggsave("Output/Final Figures/Sparid Stages Abundance.png", width = 6.3, height = 4, units = "in", dpi=600)
+#ggsave("Output/Final Figures/Sparid Stages Abundance.pdf", width = 6.3, height = 4, units = "in", dpi=600)
+#ggsave("Output/Final Figures/Sparid Stages Abundance.png", width = 6.3, height = 4, units = "in", dpi=600)
+
+
+### Make Supplementary Figure
+head(full_dat)
+
+full_dat$Date[full_dat$Location  == "Botany Bay" & full_dat$Survey == 1] <- "01/02/2006"
+full_dat$Date[full_dat$Location  == "Botany Bay" & full_dat$Survey == 2] <- "01/02/2007"
+full_dat$Date[full_dat$Location  == "Botany Bay" & full_dat$Survey == 3] <- "01/02/2008"
+full_dat$Date[full_dat$Location  == "Lake Macquarie" & full_dat$Survey == 1] <- "01/11/2005"
+full_dat$Date[full_dat$Location  == "Lake Macquarie" & full_dat$Survey == 2] <- "01/11/2006"
+full_dat$Date[full_dat$Location  == "Lake Macquarie" & full_dat$Survey == 3] <- "25/10/2007"
+full_dat$Date[full_dat$Location  == "St Georges Basin" & full_dat$Survey == 1] <- "15/12/2006"
+full_dat$Date[full_dat$Location  == "St Georges Basin" & full_dat$Survey == 2] <- "01/12/2007"
+full_dat$Date[full_dat$Location  == "St Georges Basin" & full_dat$Survey == 3] <- "15/12/2008"
+
+full_dat$Date <- as.Date(full_dat$Date, format = "%d/%m/%Y")
+
+plot(full_dat$Date)
+
+# Colourblind Palette
+cbbPalette <- c("#000000", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
+full_dat$Location <- factor(full_dat$Location, levels = c("Lake Macquarie", "St Georges Basin", "Botany Bay"))
+
+
+p5 <- ggplot(full_dat, aes(x = Date, y = MaxN, linetype = Habitat, shape = Habitat, col = Location)) + geom_point() + 
+  facet_wrap(~Stage, nrow = 2) + 
+  geom_line() + xlab("Date") +
+  geom_errorbar(aes(ymin = MaxN-SE, ymax = MaxN+SE), width = 0.1) +
+  theme_bw() + ylab("Sparidae Abundance \n(Mean Total MaxN ±SE)") +
+  scale_colour_manual(values=cbbPalette)+
+  #scale_x_continuous(breaks=c(1,2,3), labels= c("   Before", "Year \n1", 'Year    \n2   ')) +
+  theme(axis.title.x = element_text(face="bold", colour="black", size = 14),
+        axis.text.x  = element_text(colour="black", size = 12), 
+        axis.title.y = element_text(face="bold", colour="black", size = 14),
+        axis.ticks = element_line(colour = "black"),
+        axis.text.y  = element_text(colour="black", size = 12),
+        legend.title = element_text(colour="black", size=10, face="bold"),
+        legend.text = element_text(colour="black", size = 8, face = "bold"),
+        legend.position="bottom",
+        legend.background=element_blank(),
+        strip.background = element_rect(colour="black", fill="white"),
+        strip.text.x = element_text(size=12, face="bold"),
+        strip.text.y = element_text(size=12, face="bold"),
+        panel.grid.minor=element_blank(),
+        panel.grid.major=element_blank(),
+        legend.key.width = unit(3, "line"))
+p5
+
+ggsave("Supplementary Sparid Stages Abundance.pdf", width = 25, height = 18.8, units = "cm", dpi=600)
+ggsave("Supplementary Sparid Stages Abundance.png", width = 25, height = 18.8, units = "cm", dpi=600)
+

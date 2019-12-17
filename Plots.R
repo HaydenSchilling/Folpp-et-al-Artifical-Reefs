@@ -66,7 +66,7 @@ strip_labels <- c("Acanthopagrus.australis" = "a) Acanthopagrus australis",
                   "Rhabdosargus.sarba" = "b) Rhabdosargus sarba",
                   "Pagrus.auratus" = "c) Chrysophrys auratus")
 
-
+datX$Location <- factor(datX$Location, levels = c("Lake Macquarie", "St Georges Basin", "Botany Bay"))
 
 pX <- ggplot(datX, aes(x = Survey, y = mean_MaxN, col = Location, linetype = Habitat, shape = Habitat)) +
   geom_point() + geom_line() + xlab("Sample Period") +
@@ -90,8 +90,8 @@ pX <- ggplot(datX, aes(x = Survey, y = mean_MaxN, col = Location, linetype = Hab
   scale_x_continuous(breaks=c(1,2,3), labels= c("Before", "Year \n1", 'Year \n2'))
 pX
 
-ggsave("Output/Final Figures/Species Abundances.pdf", width = 6.3, height = 4.3, units = "in", dpi = 600)
-ggsave("Output/Final Figures/Species Abundances.png", width = 6.3, height = 4.3, units = "in", dpi = 600)
+ggsave("Species Abundances.pdf", width = 6.3, height = 4.3, units = "in", dpi = 600)
+ggsave("Species Abundances.png", width = 6.3, height = 4.3, units = "in", dpi = 600)
 
 
 # # Make plots for each species, with a panel for each location
